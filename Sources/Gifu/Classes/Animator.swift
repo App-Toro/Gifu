@@ -5,7 +5,7 @@ import UIKit
 public class Animator {
 
   /// Total duration of one animation loop
-  var loopDuration: TimeInterval {
+  public var loopDuration: TimeInterval {
     return frameStore?.loopDuration ?? 0
   }
     
